@@ -25,7 +25,7 @@ A language translation application that allows users to enter text, select sourc
 
 ---
 
-# Task 2: FAQ Chatbot
+# Task 2: FAQ Chatbot 
 
 ### Description
 An AI-powered chatbot that provides answers to frequently asked questions by analyzing user queries and matching them with relevant FAQ responses.
@@ -88,5 +88,3 @@ A computer vision project that detects and tracks objects from real-time video u
 - Computer Vision
 
 ---
-
-# Repository Structure
