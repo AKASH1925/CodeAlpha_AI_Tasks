@@ -1,0 +1,30 @@
+# Object Detection and Tracking Configuration
+# Video Source Settings
+video:
+  source: 0  # 0 for webcam, or path to video file
+  width: 1280
+  height: 720
+  fps: 30
+# Detection Settings (YOLOv8)
+detection:
+  model: "yolov8n.pt"
+  confidence: 0.5
+  iou_threshold: 0.45
+  device: "cpu"  # "cpu" or "cuda" for GPU
+  classes: null  # null for all classes, or list like [0, 2, 5]
+# Tracking Settings (SORT)
+tracking:
+  max_age: 30
+  min_hits: 3
+  iou_threshold: 0.3
+  max_disappeared: 50
+# Display Settings
+display:
+  show_fps: true
+  show_labels: true
+  show_confidence: true
+  show_tracking_id: true
+  line_thickness: 2
+  font_scale: 0.6
+  save_output: false
+  output_path: "output/tracked_video.mp4"
