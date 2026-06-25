@@ -1,3 +1,5 @@
+[![License: MIT](https://shields.io)](LICENSE)
+
 # Task 4: Object Detection and Tracking
 Real-time object detection using **YOLOv8** and multi-object tracking using **SORT algorithm**.
 ## Requirements
